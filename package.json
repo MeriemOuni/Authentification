@@ -1,0 +1,32 @@
+{
+  "name": "ws-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo"
+  ],
+  "author": "meriem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "react-bootstrap": "^1.6.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
